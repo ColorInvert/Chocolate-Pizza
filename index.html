@@ -23,11 +23,11 @@
 <body>
 
   <header>
-    <img src='img/logo.png'>
-    <h1>"Delicious"</h1>
-    <p>THE BEST FOOD BLOG ON THE WEB.</p>
-
+    
     <nav>
+      <img id= "logo" src='img/logo.png'>
+      <h1>Delicious</h1>
+      <p id="headerPTag">THE BEST FOOD BLOG ON THE WEB.</p>
       <a><img src='img/fb-icon.png'></a>
       <a><img src='img/twit-icon.png'></a>
       <a><img src='img/gp-icon.png'></a>
@@ -36,14 +36,16 @@
       <a><img src='img/pint-icon.png'></a>
       <a><img src='img/rss-icon.png'></a>
       <a><img src='img/mail-icon.png'></a>
-
+      
     </nav>
   </header>
   <main>
     <h2>Chocolate Pizza</h2>
     <p>POSTED ON 15 DEC 2013 / DESSERTS
+      <div id="print">
       <img id='printicon' src='img/print-icon.png'>
-      PRINT
+      <figcaption>PRINT</figcaption>
+      </div>
     </p>
 
     <section>
@@ -76,64 +78,43 @@
               <label for="checbox"> 1/2 cup brown sugar</label><br></li>
 
             <li><input type="checkbox">
-              <label for="checbox"> </label><br></li>
+              <label for="checbox"> 2-4 tbsp water</label><br></li>
 
             <li><input type="checkbox">
-              <label for="checbox"> 1 1/2 cups milk</label><br></li>
+              <label for="checbox"> 1/ 1/2 cups of heavy cream</label><br></li>
 
             <li><input type="checkbox">
-              <label for="checbox"> 1 1/2 cups milk</label><br></li>
+              <label for="checbox"> 1/3 granulated sugar</label><br></li>
 
             <li><input type="checkbox">
-              <label for="checbox"> 1 1/2 cups milk</label><br></li>
+              <label for="checbox"> 2 egg yolks</label><br></li>
 
             <li><input type="checkbox">
-              <label for="checbox"> 1 1/2 cups milk</label><br></li>
+              <label for="checbox"> 1 lemon, juiced</label><br></li>
 
             <li><input type="checkbox">
-              <label for="checbox"> 1 1/2 cups milk</label><br></li>
+              <label for="checbox"> 2 tbsp butter</label><br></li>
 
             <li><input type="checkbox">
-              <label for="checbox"> 1 1/2 cups milk</label><br></li>
-
-            <li><input type="checkbox">
-              <label for="checbox"> 1 1/2 cups milk</label><br></li>
-
-
+              <label for="checbox"> 1 cup honey roasted pecans, roughly chopped</label><br></li>
           </ul>
-
         </p>
-      
       </div>
-
-
-
-
-
-
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   </main>
-
-
+<footer>
+  <img src="img/van-pic.png">
+  <h3> Vanessa Stevenson</h3>
+  <p>
+    Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am. 
+  </p>
+<button>SHARE RECIPE</button>
+<img src="img/logo.png">
+<p>Delicious © 2013 • All Rights Reserved.</p>
+<p>Proudly published with Ghost.</p>
+</footer>
   <!-- Hook to our js -->
-  <script src="js/app.js"></script>
+<script src="js/app.js"></script>
 </body>
 
 </html>
